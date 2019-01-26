@@ -12,7 +12,7 @@
     "eslintconfig",
     "react"
   ],
-  "author": "Oliver Phillips <op@oliverjam.es> (https://oliverjam.es/)",
+  "author": "Oliver Phillips <oliverjamesphillips@gmail.com> (https://oliverjam.es/)",
   "license": "MIT",
   "peerDependencies": {
     "babel-eslint": ">=10",
