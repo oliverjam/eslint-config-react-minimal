@@ -1,13 +1,16 @@
 {
   "name": "eslint-config-react-minimal",
   "version": "0.0.1",
-  "description": "",
+  "description": "A minimal ESLint config for anyone just getting started with React ",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oliverjam/eslint-config-react-minimal.git"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "eslintconfig",
+    "react"
   ],
   "author": "Oliver Phillips <op@oliverjam.es> (https://oliverjam.es/)",
   "license": "MIT",
