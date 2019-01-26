@@ -10,5 +10,11 @@
     "eslint"
   ],
   "author": "Oliver Phillips <op@oliverjam.es> (https://oliverjam.es/)",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": ">=10",
+    "eslint": ">=5",
+    "eslint-plugin-import": ">=2",
+    "eslint-plugin-react": ">=7"
+  }
 }
