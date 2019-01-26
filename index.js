@@ -12,7 +12,7 @@ module.exports = {
     },
   },
   // https://github.com/benmosher/eslint-plugin-import/blob/master/config/errors.js
-  extends: ['import/errors'],
+  extends: ['plugin:import/errors'],
   rules: {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md
     'react/jsx-no-comment-textnodes': 'warn',
