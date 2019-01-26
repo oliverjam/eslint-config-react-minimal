@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-react-minimal",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Oliver Phillips <op@oliverjam.es> (https://oliverjam.es/)",
+  "license": "MIT"
+}
