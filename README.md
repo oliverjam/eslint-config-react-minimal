@@ -6,7 +6,9 @@ A very minimal set of rules to help you get started writing React.
 
 ESLint requires anything this config depends on to be installed by the end-user (sorry).
 
-`npm install -D eslint babel-eslint eslint-plugin-import eslint-plugin-react eslint-config-react-minimal`
+```shell
+npm install -D eslint babel-eslint eslint-plugin-import eslint-plugin-react eslint-config-react-minimal`
+```
 
 Then create an `.eslintrc` file containing:
 
@@ -21,7 +23,7 @@ This will enable the (optional) recommended default ESLint rules, plus the React
 ### What am I installing?
 
 1. [ESLint](https://eslint.org/docs/) itself
-1. [babel-eslint](https://github.com/babel/babel-eslint): lets ESLint any valid Babel syntax (e.g. JSX/ES6+)
+1. [babel-eslint](https://github.com/babel/babel-eslint): lets ESLint understand any valid Babel syntax (e.g. JSX/ES6+)
 1. [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import): Ensures your imports/exports are valid and won't result in errors
 1. [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react): provides all the React specific rules
 1. eslint-config-react-minimal: this config, which handles all the set-up for the previous packages automatically
