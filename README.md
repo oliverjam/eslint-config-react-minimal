@@ -26,6 +26,7 @@ This will enable the (optional) recommended default ESLint rules, plus the React
 1. [babel-eslint](https://github.com/babel/babel-eslint): lets ESLint understand any valid Babel syntax (e.g. JSX/ES6+)
 1. [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import): Ensures your imports/exports are valid and won't result in errors
 1. [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react): provides all the React specific rules
+1. [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): ensures you're using hooks correctly
 1. eslint-config-react-minimal: this config, which handles all the set-up for the previous packages automatically
 
 ## Philosophy
@@ -61,7 +62,7 @@ export default function Button({ children }) {
 }
 
 // src/index.js
-import { Button } from './button';
+import { Button } from "./button";
 // error as Button was _default_ exported
 // but is being _named_ imported
 ```
