@@ -1,6 +1,6 @@
 module.exports = {
   parser: "babel-eslint",
-  plugins: ["import", "react"],
+  plugins: ["import", "react", "react-hooks"],
   env: {
     browser: true,
     es6: true,
