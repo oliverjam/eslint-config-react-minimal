@@ -18,6 +18,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
+    sourceType: "module",
   },
   // https://github.com/benmosher/eslint-plugin-import/blob/master/config/errors.js
   extends: ["plugin:import/errors"],
