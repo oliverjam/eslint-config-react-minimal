@@ -2,7 +2,7 @@
 // should stop contributors' personal editor configs from changing anything
 module.exports = {
   printWidth: 80,
-  tabWidth: 2
+  tabWidth: 2,
   tabs: false,
   semi: true,
   singleQuote: false,

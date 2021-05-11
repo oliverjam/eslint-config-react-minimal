@@ -10,6 +10,16 @@ module.exports = {
     react: {
       version: "detect",
     },
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx"],
+      },
+    },
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
   // https://github.com/benmosher/eslint-plugin-import/blob/master/config/errors.js
   extends: ["plugin:import/errors"],
