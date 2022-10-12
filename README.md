@@ -48,20 +48,4 @@ It also assumes you're working within an ES Module environment (e.g. using JS `i
 
 Look in [`index.js`](./index.js) for a full list of all the enabled rules. There are comments linking to the documentation for each rule if you're curious what they do.
 
-Here are a few examples of problems this config will highlight:
-
-### Bad imports
-
-If you haven't used ES Modules much before you might confuse default/named imports/exports, or forget to export stuff from a file you're importing. You'll get a linter error for lots of these mistakes. For example:
-
-```js
-// src/button.js
-export default function Button({ children }) {
-  return <button>{children}</button>;
-}
-
-// src/index.js
-import { Button } from "./button";
-// error as Button was _default_ exported
-// but is being _named_ imported
-```
+You can see failing code for each rule in `examples/failures.jsx`.
