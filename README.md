@@ -7,10 +7,10 @@ A very minimal set of rules to help you get started writing React.
 ESLint requires anything this config depends on to be installed by the end-user (sorry).
 
 ```shell
-npm install -D eslint eslint-config-react-minimal eslint-plugin-import eslint-plugin-react
+npm install -D eslint eslint-config-react-minimal
 ```
 
-Then create an `.eslintrc` file containing:
+Then create an `.eslintrc.json` file containing:
 
 ```json
 {
@@ -20,13 +20,11 @@ Then create an `.eslintrc` file containing:
 
 This will enable the (optional) recommended default ESLint rules, plus the React specific rules from this config.
 
-### What am I installing?
+### What's included?
 
-1. [ESLint](https://eslint.org/docs/) itself
 1. [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import): Ensures your imports/exports are valid and won't result in errors
-1. [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react): provides all the React specific rules
+1. [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react): helps catch common React mistakes
 1. [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): ensures you're using hooks correctly
-1. eslint-config-react-minimal: this config, which handles all the set-up for the previous packages automatically
 
 ## Philosophy
 
