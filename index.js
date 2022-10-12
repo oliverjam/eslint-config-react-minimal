@@ -31,14 +31,6 @@ module.exports = {
     "react/jsx-no-target-blank": "warn",
     //https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     "react/jsx-no-undef": "error",
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
-    "react/jsx-pascal-case": [
-      "warn",
-      {
-        allowAllCaps: true,
-        ignore: [],
-      },
-    ],
     //https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
     "react/jsx-uses-vars": "warn",
     //https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger-with-children.md
