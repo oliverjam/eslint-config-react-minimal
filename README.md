@@ -67,7 +67,3 @@ import { Button } from "./button";
 // error as Button was _default_ exported
 // but is being _named_ imported
 ```
-
-### Forgetting to return in `render()`
-
-It's common to forget to actually return any elements from your class component's render method, so you'll get a linter warning if you do that as well (since React will error if you don't return anything).

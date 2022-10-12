@@ -43,12 +43,6 @@ module.exports = {
     "react/jsx-uses-vars": "warn",
     //https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger-with-children.md
     "react/no-danger-with-children": "warn",
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
-    "react/no-direct-mutation-state": "warn",
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-typos.md
-    "react/no-typos": "error",
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md
-    "react/require-render-return": "error",
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md
     "react/style-prop-object": "warn",
     // https://www.npmjs.com/package/eslint-plugin-react-hooks
