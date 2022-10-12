@@ -68,14 +68,6 @@ import { Button } from "./button";
 // but is being _named_ imported
 ```
 
-### Missing React import
-
-It can be easy to forget to import React into any file that renders components.
-
-This is because Babel turns JSX like `<Button>Submit</Button>` into function calls like `React.createElement(Button, {}, 'Submit')`.
-
-The transpiled version makes it obvious that you need React in scope, but if you forget the linter will warn you.
-
 ### Forgetting to return in `render()`
 
 It's common to forget to actually return any elements from your class component's render method, so you'll get a linter warning if you do that as well (since React will error if you don't return anything).
