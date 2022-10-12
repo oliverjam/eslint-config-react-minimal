@@ -20,6 +20,10 @@ Then create an `.eslintrc.json` file containing:
 
 This will enable the (optional) recommended default ESLint rules, plus the React specific rules from this config.
 
+## "Real" applications
+
+If you're building a "real" thing (i.e. not just for learning) you may want a more complete linting setup. I'd recommend using the [Create React App config](https://www.npmjs.com/package/eslint-config-react-app) even if you aren't using CRA. It's maintained by the React team and is more comprehensive than mine.
+
 ## What's included?
 
 1. [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import): Ensures your imports/exports are valid and won't result in errors
