@@ -1,3 +1,4 @@
 .prettierrc.js
 CODE_OF_CONDUCT.md
 .gitignore
+/example
