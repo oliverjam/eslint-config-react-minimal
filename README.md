@@ -4,13 +4,13 @@ A very minimal set of rules to help you get started writing React.
 
 ## Usage
 
-ESLint requires anything this config depends on to be installed by the end-user (sorry).
+Install ESLint and this config as devDependencies:
 
 ```shell
 npm install -D eslint eslint-config-react-minimal
 ```
 
-Then create an `.eslintrc.json` file containing:
+Then create an `.eslintrc.json` file:
 
 ```json
 {
@@ -18,7 +18,7 @@ Then create an `.eslintrc.json` file containing:
 }
 ```
 
-This will enable the (optional) recommended default ESLint rules, plus the React specific rules from this config.
+This will enable the (optional) recommended default ESLint rules for normal JavaScript, plus the React specific rules from this config.
 
 ## "Real" applications
 
