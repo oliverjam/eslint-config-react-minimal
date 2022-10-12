@@ -20,7 +20,7 @@ Then create an `.eslintrc.json` file containing:
 
 This will enable the (optional) recommended default ESLint rules, plus the React specific rules from this config.
 
-### What's included?
+## What's included?
 
 1. [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import): Ensures your imports/exports are valid and won't result in errors
 1. [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react): helps catch common React mistakes
@@ -30,19 +30,9 @@ This will enable the (optional) recommended default ESLint rules, plus the React
 
 `eslint-plugin-react` has a _ton_ of rules, some of which are either questionably useful or designed to help enforce certain patterns in large projects.
 
-If you're just starting out in React all you really need are simple rules to help correct typos, ensure your imports are correct and remind you of certain React conventions.
+If you're just starting out in React all you really need are simple rules to help correct typos, ensure your imports are correct, and remind you of certain React conventions.
 
 This config is an alternative to figuring out which of the 50+ `eslint-plugin-react` rules to disable 🙃.
-
-## Config
-
-There are a few bits of config you need to remember setting up ESLint, so these are set for you.
-
-### Environments
-
-ESLint doesn't know where your code is going to run, so it can't make assumptions about what may be available in the environment. This config sets browser & ES6 environments. This means the linter won't complain that globals like `fetch` are undefined, since it knows they're available on the global scope.
-
-It also assumes you're working within an ES Module environment (e.g. using JS `import` rather than Node `require`).
 
 ## Rules
 
