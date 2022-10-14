@@ -2,6 +2,7 @@ module.exports = {
   plugins: ["import", "react", "react-hooks"],
   env: {
     browser: true,
+    es6: true,
   },
   settings: {
     react: {
